@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T14:35:55.812Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Q1MBFV8MwnHtMnRYtgsS" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T15:06:41.396Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NsFlgNShTrPwzvGMpzyy" version="23.1.1" type="github">
   <diagram id="SXgX17sldJI9QkPeDldp" name="Page-1">
     <mxGraphModel dx="930" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,6 +14,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="67.49999999999994" y="420" as="sourcePoint" />
             <mxPoint x="67.49999999999994" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-6" value="1GB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kKs_Z4YsZ-Q-qFJGQyTJ-22">
+          <mxGeometry x="-0.0265" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kKs_Z4YsZ-Q-qFJGQyTJ-71" value="" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" source="JQNGtptB9huXMuLjUiGa-16" target="JQNGtptB9huXMuLjUiGa-14" edge="1">
@@ -62,6 +67,11 @@
             <mxPoint x="321.68" y="161.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-7" value="10GB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JQNGtptB9huXMuLjUiGa-31">
+          <mxGeometry x="-0.0845" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JQNGtptB9huXMuLjUiGa-32" value="Desk Area" style="swimlane;whiteSpace=wrap;html=1;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" vertex="1">
           <mxGeometry x="70.00000000000003" y="160" width="200" height="200" as="geometry" />
         </mxCell>
@@ -100,15 +110,6 @@
             <mxPoint x="452.49999999999994" y="-30" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JQNGtptB9huXMuLjUiGa-24" value="nas01" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/hard_disk.svg;" parent="JQNGtptB9huXMuLjUiGa-33" vertex="1">
-          <mxGeometry x="137.35999999999996" y="116.5" width="50" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="JQNGtptB9huXMuLjUiGa-27" value="" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="JQNGtptB9huXMuLjUiGa-33" source="JQNGtptB9huXMuLjUiGa-17" target="JQNGtptB9huXMuLjUiGa-24" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="452.49999999999994" y="40" as="targetPoint" />
-            <mxPoint x="452.49999999999994" y="-30" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rSsPooglFAMO5VUMkwAG-0" value="Electronics Bench" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1">
           <mxGeometry x="70" y="440" width="200" height="200" as="geometry" />
         </mxCell>
@@ -125,6 +126,25 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="183" as="targetPoint" />
             <mxPoint x="442" y="76" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-8" value="10GB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rSsPooglFAMO5VUMkwAG-4">
+          <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQNGtptB9huXMuLjUiGa-24" value="nas01" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/hard_disk.svg;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" vertex="1">
+          <mxGeometry x="620" y="170" width="50" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="JQNGtptB9huXMuLjUiGa-27" value="" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" source="JQNGtptB9huXMuLjUiGa-16" target="JQNGtptB9huXMuLjUiGa-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="801.3199999999999" y="200" as="targetPoint" />
+            <mxPoint x="801.3199999999999" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-5" value="10GB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JQNGtptB9huXMuLjUiGa-27">
+          <mxGeometry x="0.18" y="-2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
