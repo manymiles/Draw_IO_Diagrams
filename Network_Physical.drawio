@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T18:37:52.046Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="B-zMfFR_Tl7M0WZm1JH9" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T18:45:08.276Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SQGg_ZpKVP-bYMKLrRQh" version="23.1.1" type="github">
   <diagram id="SXgX17sldJI9QkPeDldp" name="Page-1">
     <mxGraphModel dx="2133" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="JQNGtptB9huXMuLjUiGa-20" value="svr3&lt;br&gt;MITx" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" parent="JQNGtptB9huXMuLjUiGa-33" vertex="1">
           <mxGeometry x="9.860000000000014" y="105" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JQNGtptB9huXMuLjUiGa-21" value="virt03" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" parent="JQNGtptB9huXMuLjUiGa-33" vertex="1">
+        <mxCell id="JQNGtptB9huXMuLjUiGa-21" value="virt03&lt;br&gt;XForce PC" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" parent="JQNGtptB9huXMuLjUiGa-33" vertex="1">
           <mxGeometry x="76.18" y="105" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rSsPooglFAMO5VUMkwAG-47" value="1GB" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;fontColor=#FFFF66;strokeColor=#FFFF66;fillColor=#60a917;" edge="1" parent="JQNGtptB9huXMuLjUiGa-33" source="JQNGtptB9huXMuLjUiGa-17" target="JQNGtptB9huXMuLjUiGa-20">
@@ -80,6 +80,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="95" y="80" as="sourcePoint" />
             <mxPoint x="46" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-49" value="pistar&lt;br&gt;RPi" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="JQNGtptB9huXMuLjUiGa-33">
+          <mxGeometry x="145" y="105" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rSsPooglFAMO5VUMkwAG-50" value="1GB" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;fontColor=#FFFF66;strokeColor=#FFFF66;fillColor=#60a917;" edge="1" parent="JQNGtptB9huXMuLjUiGa-33" source="JQNGtptB9huXMuLjUiGa-17" target="rSsPooglFAMO5VUMkwAG-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108" y="80" as="sourcePoint" />
+            <mxPoint x="103" y="116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rSsPooglFAMO5VUMkwAG-0" value="Electronics Bench" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1">
@@ -99,7 +108,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JQNGtptB9huXMuLjUiGa-24" value="nas01&lt;br&gt;TrueNAS Scale" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/hard_disk.svg;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" vertex="1">
+        <mxCell id="JQNGtptB9huXMuLjUiGa-24" value="nas01&lt;br&gt;PowerSpec" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/hard_disk.svg;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" vertex="1">
           <mxGeometry x="430" y="366.5" width="50" height="27" as="geometry" />
         </mxCell>
         <mxCell id="JQNGtptB9huXMuLjUiGa-27" value="10GB" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;fillColor=#60a917;strokeColor=#2D7600;fontColor=#99FF33;" parent="kKs_Z4YsZ-Q-qFJGQyTJ-1" source="JQNGtptB9huXMuLjUiGa-16" target="JQNGtptB9huXMuLjUiGa-24" edge="1">
